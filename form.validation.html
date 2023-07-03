@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Excercise</title>
+</head>
+<body>
+    <h1>Registration Form </h1>
+    <form action="https://formsubmit.co/info@josephavnon.com" method="POST">
+        <p>
+        <label for="user_ID">User ID:</label>
+        <input type="text" id="user_ID" name="user_ID" required min="5" max="12">
+        </p>
+        <p>
+        <label for="password">Password:</label> 
+        <input type="password" id="password" name="user_password" required min="7" max="12">
+        </p>
+        <p>
+        <label for="country">Country:</label> 
+        <action="#" method="get">
+        <select name ="Country">
+            <option value="SouthAfrica">South Africa</option>
+            <option value="Other">Other</option>
+        </select> 
+        </p>
+        <p>
+        <label for="Gender">Gender:</label>
+        <label for="Gender">Male</label>
+        <input type="radio" name="Gender" value="Male">
+        <label for="Gender">Female</label>
+        <input type="radio" name="Gender" value="Female">    
+        </p>
+        <p>
+        <label for="Message">Send me a message:</label>
+        <textarea id="message" name="message" rows="5" cols="100"> </textarea>
+        </p>
+        <p>
+        <input class="submit" type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+</html>
